@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding:0px
+}
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+header {
+    text-align: center;
+    font-size: 40px;
+    
+}
+#container {
+    display: grid;
+    margin-top: 10px;
+    width: 60vw;
+    height:45vh;
+    box-shadow: rgb(146, 138, 125) -1px 7px 22px -6px
+}
+menu button{
+    font-size: 20px;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: rgb(146, 138, 125) -1px 7px 22px -6px;
+    transition: 0.6s;
+}
+
+menu button:active {
+    box-shadow:inset rgb(146, 138, 125) -1px 7px 22px -6px;
+    border: 3px solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px solid black;
+    background-color: grey;
+    text-align: center;
+    height: 25vh;
+}
+.cell {
+    font-size: 40px;
+    width: 100px;
+    height: 80px;
+    background-color: grey;
+    border: 2px solid black;
+    
+}
+
+.one {
+    border-top: 0;
+    border-left: 0;
+}
+.two {
+    border-top: 0;
+}
+.three{
+    border-top: 0;
+    border-right: 0;
+    
+}
+.four{
+    border-left: 0;
+}
+.six {
+    border-right: 0; 
+}
+.seven {
+    border-left: 0;
+    border-bottom: 0;
+}
+.eight {
+    border-bottom: 0;
+}
+.nine {
+    border-right: 0;
+    border-bottom: 0;
+}
+footer{
+    display: grid;
+
+}
+
+#resetButton{
+    font-size: 25px;
+    border: 0;
+   
+}
+#resetButton:active {
+    box-shadow:inset rgb(146, 138, 125) -1px 7px 22px -6px;
+    
+}
